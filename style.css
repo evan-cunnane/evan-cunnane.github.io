@@ -1,0 +1,109 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e1e2c3;
+    color: #333;
+}
+header {
+    background-color: #1b2a58;
+    position: relative;
+}
+.logo-img {
+    height: 100px;
+    width: auto;
+}
+
+img{
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #1b2a58;
+    padding: 1px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color:#183049;
+    text-transform: uppercase;
+}
+.section-divider{
+    border:2px solid #183049;
+    margin-bottom:10px;
+}
+.table{
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.table th{
+    background-color: #343a40;
+    color: white;
+}
+.table-responsive{
+    max-width:800px;
+    margin:auto;
+}
+.sub-heading-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+.video-link{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.video-link:hover{
+    text-decoration: underline;
+}
+.hover-zoom{
+    transition: transform 0.3s ease-in-out;
+}
+.hover-zoom:hover{
+    transform: scale(1.1); 
+}
+.hobby-img{
+    max-width: 100%;
+    height:auto;
+    border: 3px solid #183049;
+    padding: 5px;
+}
+.hobby-text{
+font-size: 16px;
+margin-top: 10px;
+color: #333;
+padding: 10px;
+}
+@media (max-width: 768px){
+    .hobby-img{
+        max-width:80%;
+    }
+   
+}
+.future-plans-list{
+    max-width:800px;
+    margin: 0 auto;
+    padding: 10px;
+    list-style-type: disc;
+    color:#333;
+}
+.future-plans-list li {
+    font-size:15px;
+    margin-bottom:10px;
+}
+@media (max-width:460px) {
+    body {
+        background-color: white;
+    }
+}
+.design-title{
+    font-size: 16px;
+    font-weight:bold;
+    color:#183049;
+    margin-bottom: 10px;
+}
+.design-img{
+    max-width:100%;
+    height:auto;
+    border:3px solid #183049;
+    padding: 5px;
+}
